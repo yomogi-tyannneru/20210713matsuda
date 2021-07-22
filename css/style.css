@@ -80,6 +80,11 @@ table th {
   font-weight: bold;
   background-color: #dedede;
 }
+.ニュース {
+  width: 80%;
+  padding: 10px;
+  background: #c71585;
+  border-radius: 30px;
 
 .grid__parent {
   display: grid;
@@ -165,7 +170,6 @@ img {
 .Company {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 .news {
   font-family: "Gochi Hand", cursive;
@@ -174,6 +178,7 @@ img {
 table {
   width: 60%;
   border-collapse: collapse;
+  
 }
 table th,
 table td {
