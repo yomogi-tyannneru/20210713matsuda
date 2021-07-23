@@ -67,14 +67,21 @@ a {
   font-size: 70px;
 }
 
+.company {
+  margin: 0 auto;
+  width: 700px;
+}
 .table1 {
-  width: 60%;
+  width: 100%;
   border-collapse: collapse;
+}
+.table1tr {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
 }
 .table1th,
 .table1td {
-  border-bottom: 1px solid #ccc;
-  padding: 20px;
+  
 }
 .table1th {
   font-weight: normal;
