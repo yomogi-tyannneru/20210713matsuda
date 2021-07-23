@@ -67,27 +67,27 @@ a {
   font-size: 70px;
 }
 
-table {
+.table1 {
   width: 60%;
   border-collapse: collapse;
 }
-table th,
-table td {
-  border: 1px solid #ccc;
+.table1th,
+.ニュース,
+.table1td {
+  border-bottom: 1px solid #ccc;
   padding: 20px;
 }
-table th {
-  font-weight: bold;
-  
+.table1th {
+  font-weight: normal;
 }
 .ニュース {
   color: #fff;
   width: 20%;
-  padding: 10px;
+  padding: 20px 0;
   background: #c71585;
   border-radius: 30px;
   text-align: center;
-  margin:100px auto 0;
+  margin: 100px auto 0;
 }
 
 .grid__parent {
@@ -171,25 +171,24 @@ img {
   justify-content: space-between;
 }
 
-.Company {
+.company {
   margin: 0 auto;
-  width: 100%;
+  width: 700px;
 }
 .news {
   font-family: "Gochi Hand", cursive;
   color: #c71585;
 }
-table {
+.table2 {
   width: 60%;
   border-collapse: collapse;
-  
 }
-table th,
-table td {
+.table2th,
+.table2td {
   border: 1px solid #ccc;
   padding: 20px;
 }
-table th {
+.table2th {
   font-weight: bold;
   background-color: #dedede;
 }
