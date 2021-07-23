@@ -81,10 +81,14 @@ table th {
   background-color: #dedede;
 }
 .ニュース {
-  width: 80%;
+  color: #fff;
+  width: 20%;
   padding: 10px;
   background: #c71585;
   border-radius: 30px;
+  text-align: center;
+  margin:100px auto 0;
+}
 
 .grid__parent {
   display: grid;
@@ -167,13 +171,13 @@ img {
   justify-content: space-between;
 }
 
-.Company {
-  display: flex;
-  justify-content: center;
+.Company2 {
+  margin: 0 auto;
 }
 .news {
   font-family: "Gochi Hand", cursive;
   color: #c71585;
+  width: 100%;
 }
 table {
   width: 60%;
