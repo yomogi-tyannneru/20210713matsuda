@@ -72,7 +72,6 @@ a {
   border-collapse: collapse;
 }
 .table1th,
-.ニュース,
 .table1td {
   border-bottom: 1px solid #ccc;
   padding: 20px;
@@ -81,9 +80,10 @@ a {
   font-weight: normal;
 }
 .ニュース {
+  border-bottom: 1px solid #ccc;
   color: #fff;
   width: 20%;
-  padding: 20px 0;
+  padding: 1px;
   background: #c71585;
   border-radius: 30px;
   text-align: center;
@@ -180,7 +180,7 @@ img {
   color: #c71585;
 }
 .table2 {
-  width: 60%;
+  width: 100%;
   border-collapse: collapse;
 }
 .table2th,
@@ -189,6 +189,7 @@ img {
   padding: 20px;
 }
 .table2th {
-  font-weight: bold;
+  font-weight: normal;
   background-color: #dedede;
+  text-align: left;
 }
