@@ -78,7 +78,7 @@ table td {
 }
 table th {
   font-weight: bold;
-  background-color: #dedede;
+  
 }
 .ニュース {
   color: #fff;
@@ -171,13 +171,13 @@ img {
   justify-content: space-between;
 }
 
-.Company2 {
+.Company {
   margin: 0 auto;
+  width: 100%;
 }
 .news {
   font-family: "Gochi Hand", cursive;
   color: #c71585;
-  width: 100%;
 }
 table {
   width: 60%;
