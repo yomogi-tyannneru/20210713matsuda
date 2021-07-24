@@ -82,6 +82,7 @@ a {
 }
 .table1th {
   font-weight: normal;
+  color: #696969;
 }
 .ニュース {
   border-bottom: 1px solid #ccc;
@@ -93,9 +94,13 @@ a {
   text-align: center;
   margin: 100px auto 0;
 }
+.table1td {
+  color: #696969;
+}
 
 .About-background {
   background-color: #dedede;
+  padding: 30px;
 }
 .About-title {
   text-align: center;
@@ -103,9 +108,12 @@ a {
 .About-title1 {
   font-family: "Gochi Hand", cursive;
   color: #c71585;
+  line-height: 24px;
 }
 .About-title2 {
+  color: #696969;
   font-size: 24px;
+  margin-bottom: 30px;
 }
 .About {
   display:flex;
@@ -119,14 +127,13 @@ a {
   top: 200px;
 }
 .text-box4 {
-  
-  
-  
+  margin-bottom: 1em;
+  line-height: 24px;
+  color: #808080;
 }
 .text-box5 {
-  
-  
-  
+  line-height: 24px;
+  color: #808080;
 }
 
 .company {
@@ -173,11 +180,11 @@ a {
 }
 .ブログ-title {
   font-size: 24px;
+  margin-bottom: 24px;;
 }
 .wrapper {
   display: flex;
-  justify-content: space-around;
-  width: 80%;
+  justify-content: space-between;
   margin: 0 auto;
 }
 img {
@@ -232,13 +239,16 @@ img {
 .company {
   margin: 0 auto;
   width: 700px;
+  
 }
 .Company1 {
   font-family: "Gochi Hand", cursive;
   color: #c71585;
+  margin-bottom: 10px;
 }
 .会社概要 {
   font-size: 24px;
+  margin-bottom: 24px;
 }
 .table2 {
   width: 100%;
