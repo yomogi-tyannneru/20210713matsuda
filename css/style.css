@@ -78,10 +78,7 @@ a {
 .table1tr {
   border-bottom: 1px solid #ccc;
   padding: 20px;
-}
-.table1th,
-.table1td {
-  
+  display: block;
 }
 .table1th {
   font-weight: normal;
@@ -89,12 +86,49 @@ a {
 .ニュース {
   border-bottom: 1px solid #ccc;
   color: #fff;
-  width: 20%;
+  width: 15%;
   padding: 1px;
   background: #c71585;
   border-radius: 30px;
   text-align: center;
   margin: 100px auto 0;
+}
+
+.About-background {
+  background-color: #dedede;
+}
+.About-title {
+  text-align: center;
+}
+.About-title1 {
+  font-family: "Gochi Hand", cursive;
+  color: #c71585;
+}
+.About-title2 {
+  font-size: 24px;
+}
+.About {
+  position: relative;
+  
+}
+.aboutjpg {
+  width: 35%;
+  
+  margin: 5% 0 0 auto;
+}
+.about.jpg {
+  width: 100%;
+  top: 200px;
+}
+.text-box4 {
+  position: absolute;
+  bottom: 100px;
+  
+}
+.text-box5 {
+  
+  bottom: 100px;
+  
 }
 
 .grid__parent {
