@@ -108,29 +108,35 @@ a {
   font-size: 24px;
 }
 .About {
-  position: relative;
-  
+  display:flex;
+  justify-content: space-around;
 }
 .aboutjpg {
   width: 35%;
-  
-  margin: 5% 0 0 auto;
 }
 .about.jpg {
   width: 100%;
   top: 200px;
 }
 .text-box4 {
-  position: absolute;
-  bottom: 100px;
+  
+  
   
 }
 .text-box5 {
   
-  bottom: 100px;
+  
   
 }
 
+.company {
+  margin: 0 auto;
+  width: 700px;
+}
+.news {
+  font-family: "Gochi Hand", cursive;
+  color: #c71585;
+}
 .grid__parent {
   display: grid;
   grid-template-rows: 300px 300px 100px 200px;
@@ -157,6 +163,17 @@ a {
   background: #049fb3;
 }
 
+.Blog {
+  margin: 0 auto;
+  width: 700px;
+}
+.Blog-title {
+  font-family: "Gochi Hand", cursive;
+  color: #c71585;
+}
+.ブログ-title {
+  font-size: 24px;
+}
 .wrapper {
   display: flex;
   justify-content: space-around;
@@ -216,9 +233,12 @@ img {
   margin: 0 auto;
   width: 700px;
 }
-.news {
+.Company1 {
   font-family: "Gochi Hand", cursive;
   color: #c71585;
+}
+.会社概要 {
+  font-size: 24px;
 }
 .table2 {
   width: 100%;
