@@ -405,9 +405,46 @@ img {
   padding: 20px 0;
   color: #ffffff;
   border-radius: 30px;
-  background: linear-gradient(to right, #FF1493, #c71585);
+  background: linear-gradient(to right, #ff1493, #c71585);
   text-align: center;
   box-shadow: 0 10px 0 #914876;
   margin: 2% auto 0;
   display: block;
 }
+
+.b {
+  background-color: #dedede;
+}
+.c {
+  text-align: center;
+  padding: 20px;
+}
+
+.download__btn {
+  position: relative;
+  background-color: #55bbbb;
+  width: 200px;
+  display: block;
+  padding: 18px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 100px auto;
+}
+
+.download__btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url(img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+}
+
+
