@@ -260,6 +260,7 @@ img {
   border: 1px solid #e9eaea;
   border-radius: 3px;
   border-radius: 30px;
+  background-color: #ffffff;
 }
 .text-box {
   padding: 20px;
@@ -300,10 +301,22 @@ img {
   justify-content: space-between;
   color: #808080;
 }
+.practice__btn {
+  width: 15%;
+  padding: 20px 0;
+  color: #c71585;
+  border-radius: 30px;
+  border: solid 1px #c71585;
+  background: #ffffff;
+  text-align: center;
+  margin: 2% auto 0;
+  display: block;
+}
 
 .company {
   margin: 0 auto;
   width: 50%;
+  padding: 60px;
 }
 .Company1 {
   font-family: "Gochi Hand", cursive;
@@ -330,4 +343,38 @@ img {
   background-color: #dedede;
   text-align: left;
   width: 30%;
+}
+
+.ss {
+  display: flex;
+  flex-direction: center;
+  width: 100%;
+}
+.sss {
+  position: relative;
+}
+.ssss {
+  position: absolute;
+  color: #ffffff;
+  font-size: 140%;
+  font-weight: bold;
+  top: 50%;
+  left: 45%;
+}
+.recruit.png {
+  width: 200%;
+}
+.sssss {
+  position: relative;
+}
+.interview.png {
+  width: 200%;
+}
+.ssssss {
+  position: absolute;
+  color: #ffffff;
+  font-size: 140%;
+  font-weight: bold;
+  top: 50%;
+  left: 45%;
 }
