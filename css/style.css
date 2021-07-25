@@ -352,6 +352,7 @@ img {
 }
 .sss {
   position: relative;
+  width: 50%;
 }
 .ssss {
   position: absolute;
@@ -361,14 +362,9 @@ img {
   top: 50%;
   left: 45%;
 }
-.recruit.png {
-  width: 200%;
-}
 .sssss {
   position: relative;
-}
-.interview.png {
-  width: 200%;
+  width: 50%;
 }
 .ssssss {
   position: absolute;
@@ -377,4 +373,41 @@ img {
   font-weight: bold;
   top: 50%;
   left: 45%;
+}
+
+.otoie {
+  padding: 60px;
+}
+.otoie1 {
+  color: #696969;
+  font-size: 140%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.v_line_fix {
+  margin-left: 100px;
+  width: 5px;
+  height: 50px;
+  background-color: brown;
+  margin: 2% auto 0;
+}
+.drf {
+  position: relative;
+}
+.mailicon.svg {
+  width: 10%;
+}
+.drf1 {
+  position: absolute;
+}
+.practice__btn1 {
+  width: 15%;
+  padding: 20px 0;
+  color: #ffffff;
+  border-radius: 30px;
+  background: linear-gradient(to right, #FF1493, #c71585);
+  text-align: center;
+  box-shadow: 0 10px 0 #914876;
+  margin: 2% auto 0;
+  display: block;
 }
